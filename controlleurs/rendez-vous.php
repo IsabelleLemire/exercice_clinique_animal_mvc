@@ -6,7 +6,7 @@
 
         function afficherCarte() {
             $rendez_vous = modele_rendez_vous::ObtenirTous();
-            require '.vues/rendez-vous/carte.php';
+            require './vues/rendez-vous/carte.php';
         }
     }
 

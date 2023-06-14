@@ -36,7 +36,7 @@
       </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container">
 
       <h1>Liste tes vétérinaires</h1>
 

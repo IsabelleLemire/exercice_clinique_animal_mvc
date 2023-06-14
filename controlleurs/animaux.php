@@ -6,12 +6,12 @@
 
         function afficherListe() {
             $animaux = modele_animaux::ObtenirTous();
-            require '.vues/animaux/liste.php';
+            require './vues/animaux/liste.php';
         }
 
         function afficherTableau() {
             $animaux = modele_animaux::ObtenirTous();
-            require 'vues/animaux/tableau.php';
+            require './vues/animaux/tableau.php';
         }
     }
 

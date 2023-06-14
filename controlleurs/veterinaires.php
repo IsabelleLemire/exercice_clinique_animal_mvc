@@ -6,7 +6,7 @@
 
         function afficherListe() {
             $veterinaires = modele_veterinaires::ObtenirTous();
-            require '.vues/veterinaires/liste.php';
+            require './vues/veterinaires/liste.php';
         }
     }
 
